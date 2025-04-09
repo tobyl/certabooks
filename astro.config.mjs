@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://certabooks.ca',
-  base: 'certabooks',
+  // base: 'certabooks',
   vite: {
     plugins: [tailwindcss()]
   }
